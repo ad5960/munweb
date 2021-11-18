@@ -1,8 +1,8 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 
 /* navbar */
@@ -54,6 +54,16 @@
 .home_text h1 {
     font-size: 3.5rem;
     font-weight: 700;
+}
+
+@media(max-width:500px){
+    .home_text h1{
+        font-size:2.7rem;
+    }
+
+    .home_text h3{
+        font-size:1.8rem;
+    }
 }
 
 .home-img img {
@@ -117,7 +127,7 @@
 
 .modal.left .modal-content,
 .modal.right .modal-content {
-    width: 320px;
+    width: 100vw;
     height: 100%;
     overflow-y: auto;
 }
